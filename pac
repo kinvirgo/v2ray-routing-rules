@@ -2,6 +2,15 @@
 [
     {
         "type": "field",
+        "outboundTag": "direct",
+        "domain": ["geosite:cn"],
+         "ip": [
+          "geoip:cn", 
+          "geoip:private" 
+        ]
+    },
+    {
+        "type": "field",
         "outboundTag": "block",
         "domain": [
           "geosite:category-ads",
