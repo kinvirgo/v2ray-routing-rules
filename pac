@@ -11,11 +11,7 @@
     {
         "type": "field",
         "outboundTag": "proxy",
-        "domain": ["geosite:tld-!cn", "geosite:geolocation-!cn", "geosite:google", "geosite:apple"]
-    },
-    {
-        "type": "field",
-        "outboundTag": "proxy",
+        "domain": ["geosite:tld-!cn", "geosite:geolocation-!cn", "geosite:google", "geosite:apple"],
         "ip": ["geoip:!cn"]
     },
     {
