@@ -2,11 +2,6 @@
 [
     {
         "type": "field",
-        "outboundTag": "direct",
-        "domain": []
-    },
-    {
-        "type": "field",
         "outboundTag": "block",
         "domain": [
           "geosite:category-ads",
